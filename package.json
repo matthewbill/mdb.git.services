@@ -1,0 +1,37 @@
+{
+    "name": "mdb-git-services",
+    "version": "0.1.0",
+    "description": "Git services for projects by Matthew Bill",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "docs": "jsdoc ./src -r -d ./docs/api --verbose",
+        "test": "jest __tests__ --coverage",
+        "int-test": "jest __int_tests__ --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matthewbill/mdb-git-services.git"
+    },
+    "keywords": [
+        "mdb"
+    ],
+    "author": "Matthew Bill",
+    "license": "MIT",
+    "homepage": "https://github.com/matthewbill/mdb-git-services#readme",
+    "bugs": "https://github.com/matthewbill/mdb-git-services/issues/",
+    "dependencies": {
+        "@octokit/rest": "16.15.0",
+        "nodegit": "0.24.0"
+    },
+    "devDependencies": {
+        "jsdoc": "3.5.5",
+        "jest": "23.5.0",
+        "eslint-config-mdb": "0.1.1",
+        "eslint": "5.5.0",
+        "eslint-config-airbnb": "17.1.0",
+        "eslint-plugin-import": "2.14.0",
+        "eslint-plugin-jsx-a11y": "6.1.1",
+        "eslint-plugin-react": "7.11.1"
+    }
+}
