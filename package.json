@@ -22,7 +22,7 @@
     "bugs": "https://github.com/matthewbill/mdb-git-services/issues/",
     "dependencies": {
         "@octokit/rest": "16.15.0",
-        "nodegit": "0.24.0"
+        "nodegit": "0.26.5"
     },
     "devDependencies": {
         "eslint": "5.5.0",
@@ -32,6 +32,6 @@
         "eslint-plugin-jsx-a11y": "6.1.1",
         "eslint-plugin-react": "7.11.1",
         "jest": "24.1.0",
-        "jsdoc": "3.5.5"
+        "jsdoc": "3.6.3"
     }
 }
