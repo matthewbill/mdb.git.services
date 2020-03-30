@@ -8,13 +8,17 @@ branches:
   only:
   - master
 
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
+
 before_install:
 # Setup
 - sudo apt-get update
 - sudo apt-get install -y jq
-- sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-- sudo apt-get update
-- sudo apt-get install libstdc++-4.9-dev
 
 script:
 - npm audit
