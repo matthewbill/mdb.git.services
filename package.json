@@ -1,6 +1,6 @@
 {
     "name": "mdb-git-services",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Git services for projects by Matthew Bill",
     "main": "index.js",
     "scripts": {
